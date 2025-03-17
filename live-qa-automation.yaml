@@ -1,0 +1,15 @@
+appId: org.wikipedia
+
+---
+- launchApp
+- tapOn:
+    text: "Search Wikipedia"
+    index: 1
+- tapOn: "Search Wikipedia"
+- inputText: "Tested"
+- tapOn:
+    id: "org.wikipedia:id/page_list_item_title"
+    index: 0
+- tapOn: "live album"
+- tapOn:
+    id: "org.wikipedia:id/link_preview_primary_button"
